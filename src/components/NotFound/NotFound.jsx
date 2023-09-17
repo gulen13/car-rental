@@ -1,10 +1,13 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import { NotFoundStd } from './NotFound.styled';
+import PropTypes from 'prop-types';
 
-const NotFound = props => {
-  return <div>NotFound</div>;
+const NotFound = ({ text }) => {
+  return <NotFoundStd>{text}</NotFoundStd>;
 };
 
-NotFound.propTypes = {};
+NotFound.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default NotFound;

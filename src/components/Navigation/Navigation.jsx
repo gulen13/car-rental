@@ -1,19 +1,16 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { LinkStd, NavContainer, NavList } from './Navigation.styled';
 
-const Navigation = props => {
+const Navigation = () => {
   return (
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/catalog">Catalogue</Link>
-        <Link to="/favorites">Favorites</Link>
-      </nav>
-    </div>
+    <NavContainer>
+      <NavList>
+        <LinkStd to="/">Home</LinkStd>
+        <LinkStd to="/catalog">Catalogue</LinkStd>
+        <LinkStd to="/favorites">Favorites</LinkStd>
+      </NavList>
+    </NavContainer>
   );
 };
-
-Navigation.propTypes = {};
 
 export default Navigation;

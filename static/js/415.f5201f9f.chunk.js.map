@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/415.f5201f9f.chunk.js","mappings":"uIASA,UANa,SAAAA,GACX,OAAO,iCACR,C","sources":["pages/Home.jsx"],"sourcesContent":["import React from 'react';\n// import PropTypes from 'prop-types';\n\nconst Home = props => {\n  return <div>Home</div>;\n};\n\nHome.propTypes = {};\n\nexport default Home;\n"],"names":["props"],"sourceRoot":""}
